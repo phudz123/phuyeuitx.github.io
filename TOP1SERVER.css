@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: beige;
+}
+
+header #tm {
+    background-color: beige;
+
+    width: 170px;
+    height: 150px;
+}
+
+header th h2 {
+    margin-left: 100px;
+    color: red;
+    margin-top: -35px;
+}
+
+header label {
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+header form input {
+    width: 400px;
+    height: 40px;
+}
+
+header #nmd {
+    color: black;
+    margin-top: 10px;
+}
+
+main nav {
+    background-color: red;
+}
+
+header nav ul li a {
+    color: white;
+}
+header #vtv {
+    width: 50px;
+    height: 40px;
+    margin-left: 9px;
+}
+header #vtc {
+    font-size: 30px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding-top: 20px;
+}
+
+nav li:hover {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 10px;
+}
+main marquee {
+    background-color: aquamarine;
+}
+main marquee img {
+  
+    padding-right: 60px;
+   
+    margin-right: 30px;
+}
+
+@-webkit-keyframes my {
+    0% {
+        color: #ffff00;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: #ffff00;
+    }
+}
+
+@-moz-keyframes my {
+    0% {
+        color: #ffff00;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: #ffff00;
+    }
+}
+
+@-o-keyframes my {
+    0% {
+        color: #ffff00;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: #ffff00;
+    }
+}
+
+@keyframes my {
+    0% {
+        color: #ffff00;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: #ffff00;
+    }
+}
+
+.nhapnhay {
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite;
+    -o-animation: my 700ms infinite;
+    animation: my 700ms infinite;
+}
+
+main section h2 {
+    text-align: center;
+    margin-top: 25px;
+}
+footer table tr th img {
+    width: 350px;
+    height: 250px;
+    margin-right: 150px;
+    margin-top: 30px;
+    margin-left: 25px;
+    border: solid 2px black;
+    border-radius: 15%;
+
+}
+footer table tr td h2 {
+    border: solid 2px black;
+    color: red;
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 330px;    
+  padding: 10px;
+}
+footer #eee {
+    width: 100px;
+    height: 30px;
+}
+footer div img {
+    width: 120px;
+    height: 70px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+footer div form input{
+    width: 300px;
+    height: 100px;
+    margin-left: 10px;
+}
+footer #vvv {
+    width: 100px;
+    height: 30px;
+    margin-left: 190px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+footer #www{
+    margin-left: 10px;
+}
