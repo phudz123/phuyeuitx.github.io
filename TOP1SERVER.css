@@ -85,19 +85,6 @@ main marquee img {
     margin-right: 30px;
 }
 
-@-webkit-keyframes my {
-    0% {
-        color: #ffff00;
-    }
-
-    50% {
-        color: red;
-    }
-
-    100% {
-        color: #ffff00;
-    }
-}
 
 @-moz-keyframes my {
     0% {
@@ -127,28 +114,7 @@ main marquee img {
     }
 }
 
-@keyframes my {
-    0% {
-        color: #ffff00;
-    }
-
-    50% {
-        color: red;
-    }
-
-    100% {
-        color: #ffff00;
-    }
-}
-
-.nhapnhay {
-    -webkit-animation: my 700ms infinite;
-    -moz-animation: my 700ms infinite;
-    -o-animation: my 700ms infinite;
-    animation: my 700ms infinite;
-}
-
-main section h2 {
+main  h2 {
     text-align: center;
     margin-top: 25px;
 }
